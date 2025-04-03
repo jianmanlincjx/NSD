@@ -1,9 +1,9 @@
 # # sd v1.5 follow IP-adapter
-accelerate launch --num_processes 3 examples/brushnet/train_brushnet_me_follow_ipadapter.py \
+accelerate launch --num_processes 3 examples/NSD/train_NSD.py \
 --pretrained_model_name_or_path /data1/JM/code/BrushNet/pretrain_model/stable-diffusion-v1-5 \
 --output_dir runs/logs/brushnet_segmentationmask \
 --resolution 512 \
---learning_rate 1e-5 \
+--learning_rate 1e-5 \  
 --train_batch_size 2 \
 --tracker_project_name brushnet \
 --report_to tensorboard \
