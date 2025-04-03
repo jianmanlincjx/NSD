@@ -7,9 +7,9 @@ Detailed inference and training procedures coming soon.
 ## Getting Started
 
 ### Environment Requirement 🌍
-BrushNet has been implemented and tested on Pytorch 1.12.1 with Python 3.9.
+NSD has been implemented and tested on Pytorch 1.12.1 with Python 3.9.
 
-#### Clone the repo:
+#### Clone the repo and setup environment
 ```bash
 git clone https://github.com/TencentARC/BrushNet.git
 conda create -n diffusers python=3.9 -y
@@ -17,5 +17,5 @@ conda activate diffusers
 python -m pip install --upgrade pip
 pip install torch==1.12.1+cu116 torchvision==0.13.1+cu116 torchaudio==0.12.1 --extra-index-url https://
 pip install -e .
-cd examples/brushnet/
+cd examples/NSD/
 pip install -r requirements.txt
