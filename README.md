@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 
 ### Data Download
-NSD uses [BrushData and BrushBench](https://github.com/TencentARC/BrushNet?tab=readme-ov-file) for training and testing. You can download the dataset through this link. At the same time, NSD proposes an indoor dataset xxx for specialized self-styled editing of indoor scenes. This dataset is still being organized. Once the dataset is ready, you can organize it in JSON format within the "data" folder for training.
+NSD uses [BrushData and BrushBench](https://github.com/TencentARC/BrushNet?tab=readme-ov-file) for training and testing. You can download the dataset through this link. At the same time, NSD proposes an indoor dataset for specialized self-styled editing of indoor scenes. This dataset is still being organized. Once the dataset is ready, you can organize it in JSON format within the "data" folder for training.
 
 
 ## Running Scripts
