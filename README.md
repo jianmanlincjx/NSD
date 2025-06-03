@@ -52,3 +52,8 @@ accelerate launch --num_processes 3 examples/NSD/train_NSD.py \
 --validation_prompt 'A delicate sofa in the room. ' \
 --validation_steps 1000 \
 --image_encoder_path /data1/JM/code/NSD/pretrain_model/image_encoder
+
+### Inference 🎨
+```bash
+python examples/NSD/test_NSD.py
+
