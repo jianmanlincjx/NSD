@@ -56,7 +56,7 @@ accelerate launch --num_processes 3 examples/NSD/train_NSD.py \
 ### Inference 🎨
 ```bash
 python examples/NSD/test_NSD.py
-
+```
 ### 🚨 Important Notes
 
 - Ensure all pre-trained models are correctly downloaded and placed in the specified locations
