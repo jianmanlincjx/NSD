@@ -57,3 +57,10 @@ accelerate launch --num_processes 3 examples/NSD/train_NSD.py \
 ```bash
 python examples/NSD/test_NSD.py
 
+### 🚨 Important Notes
+
+- Ensure all pre-trained models are correctly downloaded and placed in the specified locations
+- Training can be performed on a GPU with 24GB VRAM (e.g., RTX 3090, RTX 4090)
+- For inference, a GPU with 12GB VRAM is sufficient
+- CUDA 11.7 or higher is recommended
+
